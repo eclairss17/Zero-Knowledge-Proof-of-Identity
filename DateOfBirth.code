@@ -1,0 +1,5 @@
+def main(private field x, private field y,private field p, private field q, private field r)->(field):
+    field a = ((p-x)*12+(q-y)) - 216 
+    field b = if a == r then 1 else 0 fi 
+    return b
+     

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zero Knowledge Proof of Identity </title>
+        <link href="https://fonts.googleapis.com/css?family=Give+You+Glory|Roboto" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="GUI/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Righteous proof of Age validation Earns Magic Tokens</h1>
+
+            <p>Prover: Enter Your Age Proof </p>
+
+            Zokrates Output Proof: <textarea rows="10" cols="320" id="ten-proof-input"></textarea><br>
+            Zokrates Public Inputs :<textarea rows="10" cols="320" id="public-array-input"></textarea><br>
+            <button class="action-button" id="ten-action-button" style="visibility: hidden;" data-id="0">Hit Submit</button>
+
+            <img src="GUI/loading.svg" id="ten-loading" class="loading"/>
+            <img src="GUI/verified.png" id="ten-verified" class="verified" style="display: none;"/>
+
+            <br>
+
+            <h3>Magic Coins Token Wallet(Shows a Magic Coin if Transaction Proof is Verified) :</h3>
+            <div id="nft-prize-view">
+            </div>
+
+        </div>
+
+        <div id="nft-prize-template" style="display: none;">
+            <div class="star-block">
+                <div class="panel-body">
+                    <img class="token-image" src="" height="200" /> <br>
+                    <label class="token-id"></label>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="GUI/js/web3.min.js"></script>
+        <script src="GUI/js/truffle-contract.js"></script>
+        <script src="GUI/js/app.js"></script>
+    </body>
+</html>

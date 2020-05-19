@@ -1,0 +1,24 @@
+{
+  "name": "smart-contracts",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.0.1",
+    "openzeppelin-solidity": "^2.5.1",
+    "web3": "^0.20.7",
+    "zeppelin-solidity": "^1.12.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "description": ""
+}

@@ -1,0 +1,7 @@
+def main(field publicName,field publicAge,private field DOB,private field key)->(field):
+    field a = if publicName == 69107108101101110327597117114 then 1 else 0 fi 
+    field b = if publicAge == 20 then 1 else 0 fi 
+    field c = a * b 
+    field d = c * DOB * key
+    field e = if d == 1038616128000 then 1 else 0 fi 
+    return e
