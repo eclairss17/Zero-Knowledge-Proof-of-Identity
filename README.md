@@ -4,7 +4,7 @@
 
 
 
-AgeVerifier.code is my Zokrates function for Identity Age Verification. The technical term is self sovereign identity Verification using Zero Knowledge proof
+AgeVerification.code is my Zokrates function for Identity Age Verification. The technical term is self sovereign identity Verification using Zero Knowledge proof
 It has both public and private inputs. 
 
 E(Var) : Encrypted variable
