@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@openzeppelin/contracts": "^3.0.1",
+    "@openzeppelin/contracts": "^4.4.2",
     "openzeppelin-solidity": "^2.5.1",
     "web3": "^0.20.7",
     "zeppelin-solidity": "^1.12.0"
